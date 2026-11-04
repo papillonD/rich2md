@@ -1,0 +1,13 @@
+# macOS and editor
+.DS_Store
+.vscode/
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+# Logs
+*.log
+
+# Compiled binary (rebuilt by install.sh)
+wispr2md
