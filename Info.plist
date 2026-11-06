@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Embedded into the rich2md binary by install.sh so macOS can name it in permission prompts. -->
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key><string>local.rich2md</string>
+  <key>CFBundleName</key><string>Rich 2 MD</string>
+  <key>CFBundleExecutable</key><string>rich2md</string>
+  <key>LSUIElement</key><true/>
+  <key>NSAppleEventsUsageDescription</key>
+  <string>Rich 2 MD reads the address of your current browser tab so it can paste Markdown on websites you've ticked, such as GitHub or ChatGPT. It never reads page contents.</string>
+</dict>
+</plist>

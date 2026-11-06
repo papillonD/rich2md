@@ -9,5 +9,10 @@
 # Logs
 *.log
 
-# Compiled binary (rebuilt by install.sh)
-wispr2md
+# Build output (rebuilt by install.sh)
+/build/
+# Left by older versions of install.sh, which built in the project folder
+/rich2md
+/_CodeSignature/
+# Binary left by the earlier version; install.sh deletes it
+/wispr2md
